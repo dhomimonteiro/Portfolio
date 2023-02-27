@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+body {
+    background-color: var(--roxo-escuro) !important;
+}
+
+nav {
+    background-color: var(--roxo-medio);
+    height: 150px;
+    clip-path: polygon(
+        0 0,
+        100% 0,
+        100% calc(100% - 1rem),
+        0 100%
+    );
+}
+
+.navbar-brand {
+    color: var(--rosa) !important;
+    letter-spacing: 10px;
+    font-size: 3em !important;
+    font-family: 'Poppins';
+    font-weight: 600;
+    transition: 0.2s;
+}
+
+.navbar-brand:hover {
+    letter-spacing: 15px;
+    transform: 0.2s;
+}
+
+.navbar-nav {
+    width: 30%;
+    display: flexbox;
+}
+
+.nav-link {
+    color: var(--rosa) !important;
+}
+
+
+
+
