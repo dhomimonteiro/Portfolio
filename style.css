@@ -83,7 +83,17 @@ nav button {
     top: -50px;
     right: -90%;
     z-index: 9;
-    
+}
+
+.circulo2 {
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    border: 1px solid var(--azul-claro);
+    border-radius: 50%;
+    left: -100px;
+    top: 400px;
+    z-index: -10;
 }
 
 .astronauta img{
@@ -124,13 +134,34 @@ nav button {
 
 .apresentacao h1 {
     font-size: 3em;
+    line-height: 40px;
 }
 
 .apresentacao h2 {
-    font-size: 5em;
+    font-size: 4.5em;
     font-weight: 600;
+    line-height: 60px;
 }
 
 .MultiText {
     color: var(--rosa);
+}
+
+.find-me {
+    line-height: 60px;
+}
+
+.find-me a {
+    color: var(--roxo-claro);
+}
+
+.titulo h1{
+    color: var(--azul-claro);
+    font-size: 3em;
+    font-family: 'Poppins', sans-serif;
+}
+
+.trabalho1 img {
+    width: 100%;
+    height: auto;
 }
