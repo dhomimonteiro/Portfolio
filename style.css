@@ -112,7 +112,7 @@ nav button {
     background: rgba(0, 0, 0, 0.2);
     width: 200px;
     height: 20px;
-    bottom: 5px;
+    bottom: 70px;
     filter: blur(10px);
     animation: flutuarSombra 3s ease-in-out infinite;
 }
@@ -149,10 +149,23 @@ nav button {
 
 .find-me {
     line-height: 60px;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 2px;
 }
 
 .find-me a {
     color: var(--roxo-claro);
+}
+
+.find-me a:hover { 
+    color: var(--azul-claro);
+    transition: 0.3s;
+    
+}
+
+hr {
+    width: 80%;
+    height: 1px;
 }
 
 .titulo h1{
